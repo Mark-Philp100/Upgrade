@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mwesigwa | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body>
+  <!-- ======= NAV ======= -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-badge" id="mP">MP</span> <span>Mark <span id="phylp">Philip</span></span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#work">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="container mobile" id="mobileMenu" hidden>
+      <a href="#about">About</a>
+      <a href="#work">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <header id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hidden">
+        <h1 class="headline">I build fast, beautiful, <span style="background:linear-gradient(135deg,#67e8f9,var(--cyan)); -webkit-background-clip:text; background-clip:text; color:transparent">responsive</span> web apps.</h1>
+        <p class="sub" id="frontEnd">Front‑end developer focused on delightful user experiences, clean code, and performant animations.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">LLM Engineering</span>
+        </div>
+        <div class="cta">
+          <a class="btn cyan" href="#work">See my work</a>
+          <a class="btn" href="#contact">Hire Me</a>
+        </div>
+      </div>
+      <div class="profile-wrap hidden">
+        <img class="profile" src="me.jpg" alt="Profile"/>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= ABOUT ======= -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title hidden">About Me</h2>
+      <div class="grid cols-2">
+        <div class="card hidden">
+          <h3>Who I am</h3>
+          <p class="muted">I am a 23-year-old graduate of <b>Isbat University</b>, 
+            holding a <b>Bachelor of Science in Artificial Intelligence and 
+            Machine Learning</b>. With a deep passion for coding and creating, 
+            I enjoy turning ideas into meaningful digital solutions. Beyond technology,
+            I find balance and inspiration in music, swimming, and exploring the lighter 
+            side of life through comedy especially the humor of <b>Kevin Hart</b>. 
+            I also enjoy watching movies, to fuel my creativity.
+            My journey is driven by curiosity and love for
+            building things that make an impact.</p>
+        </div>
+        <div class="card hidden">
+          <h3>What I do</h3>
+          <ul class="muted">
+            <li>• Responsive web design</li>
+            <li>• Component systems with JavaScript</li>
+            <li>• Motion design with CSS/JS</li>
+            <li>• My work blends problem-solving with innovation</li>
+            <li>• Turning ideas into functional applications.</li>
+            <li>• Focus on building intelligent,creative and impactful digital solutions</li>
+             <li>• Building and integrating AI solutions into web applications.</li>
+              <li>• Focus on building AI models and LLM Models</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= WORK ======= -->
+  <section id="work">
+    <div class="container">
+      <h2 class="section-title hidden">MY WORK</h2>
+      <P>This is what i have been working on so far, not yet published. So they are just raw projects of my own that can become your own.</P>
+      <div class="grid cols-3">
+        <article class="card project hidden" data-tilt>
+          <a class="thumb">
+            <img src="dumbbellandwater.jpg" alt="Tytanium Gym"/>
+          </a>
+         <a href="Gym Website/gym.html" target="_blank"><h3>TYTANIUM GYM.</h3></a> 
+          <p class="muted">Push your limits. Transform your body. Unleash your power.</p>
+        </article>
+        <article class="card project hidden" data-tilt>
+          <a class="thumb"><img src="old bottles of wines open.png" alt="wine bottles"></a>
+           <a href="TASTY WINES PROJECT/wine2.html" target="_blank"><h3>Tasty Wines</h3></a>
+          <p class="muted">Every bottle tells a story of quality, celebration, and refined taste..</p>
+        </article>
+        <article class="card project hidden" data-tilt>
+          <a class="thumb"><img src="Rent-A-Ride/tractor.png" alt="tractor"></a>
+         <a href="Rent-A-Ride/snipcode.html" target="_blank"><h3>Rent-A-Ride</h3></a> 
+          <p class="muted">Find any vehicle that suits your needs instantly.</p>
+        </article>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="contact-info">
+        <h3>Get In Touch</h3>
+        <div>
+          WhatsApp: <a href="https://wa.me/256751401010" target="_blank">+256 751401010</a><br>
+          Call me: <a href="tel:+256751401010">+256 751401010</a><br>
+          Email: <a href="mailto:markphilipmwesigwa@gmail.com">markphilipmwesigwa@gmail.com</a>
+        </div>
+      </div>
+      <div class="copyright">© <span id="year"></span> Mwesigwa. Built with ♥ and a lot of <span style="color:var(--cyan)">cyan</span>.</div>
+    </div>
+  </footer>
+  <script src="new.js"></script>
+</body>
+</html>
